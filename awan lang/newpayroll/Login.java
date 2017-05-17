@@ -33,11 +33,11 @@ public class Login extends JFrame implements ActionListener{
    		String value1=text1.getText();
    		String value2=text2.getText();
    		if (value1.equals("employee") && value2.equals("employee")) {
-   			Payslip slip=new Payslip();
+   			Payslip slip = new Payslip();
    			slip.setVisible(true);
   			slip.getContentPane();
    		}else if(value1.equals("admin") && value2.equals("admin")){
-   			Payrollv2 pay=new Payrollv2();
+   			Payrollv3 pay = new Payrollv3();
    			pay.setVisible(true);
   			pay.getContentPane();
 
